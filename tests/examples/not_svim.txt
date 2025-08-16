@@ -1,0 +1,2 @@
+This file is intended to ensure that we cannot use non .svim files as source files.
+Thus, operations that attempt to read from it should fail.

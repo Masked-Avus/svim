@@ -1,0 +1,36 @@
+# Comment 1
+# Formating "mistakes" below are for stress-testing the parser.
+
+# This should be skipped by the INIT.
+PRINT
+
+.INIT
+PUSH 8    
+LSTORE 0
+PUSH 7
+LPUSH 0
+ADD			# Comment 2
+PUSH 7
+LSTORE     1
+LPUSH	1
+ADD PRINT
+
+# COMMENT 3
+
+# Uncommenting this will cause parsing to fail.
+#.INIT
+
+PUSH
+1000
+GSTORE 0
+GPUSH 0
+GPUSH 0
+MUL		PRINT
+
+push -10
+push 5
+div
+print
+
+
+	
