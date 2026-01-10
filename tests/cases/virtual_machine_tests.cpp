@@ -1,9 +1,9 @@
-#include "tests_pch.h"
+#include "pch.h"
 #include "virtual_machine_tests.h"
-#include "core/virtual_machine.h"
-#include "core/instructions.h"
-#include "application/application.h"
-#include "application/program.h"
+#include "virtual_machine/virtual_machine.h"
+#include "virtual_machine/instructions.h"
+#include "interpreter/application.h"
+#include "interpreter/program.h"
 
 namespace test {
     using namespace svim;

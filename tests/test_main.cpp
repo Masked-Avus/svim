@@ -1,4 +1,4 @@
-#include "tests_pch.h"
+#include "pch.h"
 #include "virtual_machine_tests.h"
 #include "parser_tests.h"
 #include "application_tests.h"

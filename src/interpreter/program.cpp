@@ -1,6 +1,6 @@
 #include "pch.h"
 #include "program.h"
-#include "instructions.h"
+#include "virtual_machine/instructions.h"
 
 namespace svim {
     static const std::array<Program, 6> s_demo_programs { {

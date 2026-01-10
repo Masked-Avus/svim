@@ -13,6 +13,7 @@
 #include <fstream>
 
 // Error-Handling
+#include <exception>
 #include <stdexcept>
 
 // Resource-Handling

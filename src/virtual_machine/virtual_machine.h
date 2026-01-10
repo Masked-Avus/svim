@@ -5,8 +5,8 @@
 #include <vector>
 #include <stack>
 #include <memory>
-#include "application/application.h"
-#include "io/logger.h"
+#include "interpreter/application.h"
+#include "common/logger.h"
 
 namespace svim {
     class Virtual_Machine final {

@@ -4,7 +4,7 @@
 #include <string_view>
 #include <stdexcept>
 #include <cstddef>
-#include "parser.h"
+#include "virtual_machine/parser.h"
 
 namespace svim {
     class Bad_Parse : public std::runtime_error {

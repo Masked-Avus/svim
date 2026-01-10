@@ -1,7 +1,7 @@
-#include "tests_pch.h"
+#include "pch.h"
 #include "application_tests.h"
 #include "example_files.h"
-#include "application/application.h"
+#include "interpreter/application.h"
 
 namespace test {
     using namespace svim;

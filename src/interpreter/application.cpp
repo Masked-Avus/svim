@@ -1,13 +1,13 @@
 #include "pch.h"
 #include "application.h"
 #include "program.h"
-#include "format.h"
-#include "virtual_machine.h"
-#include "parser.h"
-#include "instructions.h"
-#include "error.h"
-#include "timer.h"
-#include "debug.h"
+#include "virtual_machine/virtual_machine.h"
+#include "virtual_machine/parser.h"
+#include "virtual_machine/instructions.h"
+#include "common/format.h"
+#include "common/error.h"
+#include "common/timer.h"
+#include "common/debug.h"
 
 namespace svim {
     //----------- Internal Types

@@ -1,8 +1,8 @@
-#include "tests_pch.h"
+#include "pch.h"
 #include "parser_tests.h"
 #include "example_files.h"
-#include "core/parser.h"
-#include "core/virtual_machine.h"
+#include "virtual_machine/parser.h"
+#include "virtual_machine/virtual_machine.h"
 
 namespace test {
     using namespace svim;

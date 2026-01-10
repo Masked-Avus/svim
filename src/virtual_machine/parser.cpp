@@ -1,10 +1,10 @@
 #include "pch.h"
 #include "parser.h"
 #include "instructions.h"
-#include "error.h"
 #include "virtual_machine.h"
-#include "format.h"
-#include "debug.h"
+#include "common/error.h"
+#include "common/format.h"
+#include "common/debug.h"
 
 /*---------- Use of Parser::m_expected_integer_count
 

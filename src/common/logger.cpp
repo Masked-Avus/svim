@@ -1,7 +1,7 @@
 #include "pch.h"
 #include "logger.h"
-#include "instructions.h"
 #include "error.h"
+#include "virtual_machine/instructions.h"
 
 namespace svim {
     //-------------------- Internal Data

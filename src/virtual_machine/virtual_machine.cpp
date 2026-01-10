@@ -1,9 +1,9 @@
 #include "pch.h"
 #include "virtual_machine.h"
 #include "instructions.h"
-#include "timer.h"
-#include "application.h"
-#include "debug.h"
+#include "interpreter/application.h"
+#include "common/debug.h"
+#include "common/timer.h"
 
 namespace svim {
     //----------- Asserts
