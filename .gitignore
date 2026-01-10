@@ -1,8 +1,8 @@
 .vs/
 
-bin/
-obj/
-build/
+**/bin/
+**/obj/
+**/build/
 tests/test_dump.txt
 tests/test_source_Output.txt
 tests/test_source_ParsedSourceDump.txt
