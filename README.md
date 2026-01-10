@@ -7,7 +7,11 @@ The Simple Virtual Machine (SVIM) was created as a beginner's project as part of
 ## Features
 ### Overview
 
-SVIM is a no-frills interpreter that runs source code whose structure should be familiar to those who have seen instruction sets like .NET's Common Language Runtime (CLR). It adds, removes, and operates upon values using a stack-based machine.
+SVIM is a no-frills interpreter that runs source code whose structure should be familiar to those who have seen instruction sets like .NET's Common Language Runtime (CLR). It adds, removes, and operates upon values using a stack-based machine. In addition to the stack, it also allows one to store a limited number of local values within a given stack frame and any number of global values.
+
+## Requirements
+
+SVIM was originally created using C\++20, but it should compile as C++17.
 
 ## Installation
 
@@ -17,11 +21,11 @@ Run the following Git command to download the repository:
 git clone https://github.com/Masked-Avus/svim
 ```
 
-SVIM was created using Visual Studio 2022, so that is recommended as far as build systems go. To that end, Visual Studio project files are provided in the `build/vs2022` folder. Simply copy/move them into their corresponding root-level folders.
+To generate the necessary project files for building SVIM, be sure to have [Premake](https://premake.github.io) installed. Once you do, run it using the `premake5.lua` file at the project's root for your preferred toolset. Below is an example using Visual Studio 2022.
 
-For running unit tests, Google Test is used as a dependency.
-
-SVIM was originally created using C\++20, but it should compile as C++17.
+```
+premake5 vs2022
+```
 
 ## Usage
 ### Instructions
